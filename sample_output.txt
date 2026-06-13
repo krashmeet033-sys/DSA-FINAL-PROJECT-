@@ -1,0 +1,92 @@
+--- Hospital Database ---
+ID      Hospital Name           City
+3       City Hospital           Mumbai
+4       Grace Clinic            Pune
+
+------------------------------------------------
+
+--- Donor List ---
+101 Rahul  O+
+102 Priya  A+
+103 Aman   B-
+104 Simran O-
+105 Karan  AB+
+
+------------------------------------------------
+
+Donor Found:
+Priya | Group: A+ | Phone: 9876543211
+
+------------------------------------------------
+
+Available Donors for O+:
+Rahul (ID: 101)
+
+------------------------------------------------
+
+Blood Banks Ranked by Total Inventory:
+
+LifeCare Bank : 100 units
+City Blood Bank : 60 units
+RedCross Bank : 30 units
+
+------------------------------------------------
+
+Transportation Network Connections:
+
+City Blood Bank <-> City Hospital (5 km)
+City Blood Bank <-> LifeCare Bank (15 km)
+City Blood Bank <-> RedCross Bank (4 km)
+LifeCare Bank <-> Grace Clinic (3 km)
+RedCross Bank <-> City Hospital (2 km)
+
+------------------------------------------------
+
+Shortest Distance: 18 km
+
+Path:
+City Blood Bank -> LifeCare Bank -> Grace Clinic
+
+------------------------------------------------
+
+Network Status:
+ALL FACILITIES CONNECTED
+
+------------------------------------------------
+
+Emergency Request Added
+
+City Hospital | O+ | 20 Units
+
+------------------------------------------------
+
+Processing Request...
+
+Allocated from City Blood Bank
+
+Remaining Stock: 30 Units
+
+------------------------------------------------
+
+Request History:
+
+Hospital: City Hospital
+Blood Group: O+
+Units: 20
+Status: COMPLETED
+
+------------------------------------------------
+
+National Blood Bank Report
+
+Total Blood Banks: 3
+Total Donors: 5
+Available Donors: 5
+Completed Requests: 1
+Pending Requests: 0
+Total Blood Units: 170
+Most Requested Blood Group: O+
+
+------------------------------------------------
+
+Thank You For Using National Blood Bank Coordination Network
